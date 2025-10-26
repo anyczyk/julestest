@@ -10,9 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.82.1",
+    "core-js": "^3.46.0",
     "react": "19.1.1",
     "react-native": "0.82.1",
-    "@react-native/new-app-screen": "0.82.1",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {
@@ -36,6 +37,6 @@
     "typescript": "^5.8.3"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=18.18.0"
   }
 }
