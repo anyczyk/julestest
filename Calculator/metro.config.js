@@ -1,5 +1,4 @@
-const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
-const path = require('path');
+const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
 
 /**
  * Metro configuration
@@ -7,10 +6,6 @@ const path = require('path');
  *
  * @type {import('@react-native/metro-config').MetroConfig}
  */
-const config = {
-  serializer: {
-    getPolyfills: () => [require.resolve(path.resolve(__dirname, 'polyfill.js'))],
-  },
-};
+const config = {};
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
